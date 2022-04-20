@@ -1,22 +1,26 @@
-/* $(document).ready(function () {
-  $('#title').mouseenter(function (event) {
+
+
+$(document).ready(function (){
+  $('#title').mouseenter(function (event){
     console.log(event);
   });
+  
+  $('.red').mouseleave(hidden);
 
-  $('input[name="name"]').click(clickInput);
+  $('[name="name"]').click(clickInput);
 
-
-  $('.list-element').click(function () {
+  $('.list-element').dblclick (function () {
     console.log(this);
     $(this).hide();
   });
-
-  $('#title').click(() => {
-    console.log(this);
-  });
-
+  
 });
 
-function clickInput() {
-  console.log("click input");
-} */
+
+function clickInput(){
+  console.log('click input');
+};
+
+function hidden(){
+  $(this).hide();
+}
