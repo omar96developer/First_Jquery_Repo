@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-size: 20px;
+    font-family: 'Rubik', sans-serif;
+}
+
+h1,
+h2 {
+    margin-bottom: 20px;
+}
+
+main {
+    margin-top: 100px;
+    padding: 10px;
+}
+.mt-30 {
+    margin-top: 30px;
+}
+.bg-blue {
+    background-color: blue;
+    color: white;
+}
+.red {
+    color: red;
+}
+.logo {
+    padding: 0 10px;
+    line-height: 50px;
+}
+#title:hover {
+    background-color: grey;
+}
+.content {
+    display: flex;
+    margin-top: 40px;
+}
+.col:not(:last-child) {
+    margin-right: 20px;
+}
+.list {
+    margin: 10px;
+    padding: 10px;
+}
